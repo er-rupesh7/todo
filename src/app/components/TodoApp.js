@@ -37,7 +37,7 @@ export default function TodoApp() {
 
   return (
     <div style={styles.container}>
-      <h1 style={{padding:'20px',...styles.title}}>Works 2 Do</h1>
+      <h1 style={{padding:'20px',...styles.title}}>To do list</h1>
       <AddTodo addTodo={addTodo} />
       <TodoList todos={todos} toggleComplete={toggleComplete} removeTodo={removeTodo} />
     </div>
